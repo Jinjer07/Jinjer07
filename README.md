@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Nijat Afandiyev · Fullstack Developer · ELTE, Budapest">
+<img src="assets/hero.svg" width="100%" alt="Jinjer · Nijat Afandiyev · Fullstack Developer · ELTE, Budapest">
 
 <img src="assets/languages.svg" width="100%" alt="Languages: Java, C#, C, Go, Python, Swift · Tools: Docker, Figma, PostgreSQL, MongoDB, Git, Linux">
 
