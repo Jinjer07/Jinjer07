@@ -24,7 +24,7 @@
 <clipPath id="screen"><rect x="48" y="96" width="500" height="300" rx="10"/></clipPath>
 <radialGradient id="core" cx="298.0" cy="246.0" r="240.0" gradientUnits="userSpaceOnUse">
 <stop offset="0" stop-color="#fff"/><stop offset=".64" stop-color="#fff"/><stop offset=".75" stop-color="#fff" stop-opacity="0"/></radialGradient>
-<mask id="coreMask"><rect x="48" y="96" width="500" height="300" fill="url(#core)"/></mask>
+<clipPath id="coreClip"><circle cx="298.0" cy="246.0" r="163.2"/></clipPath>
 <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <clipPath id="card"><rect x="0" y="0" width="1200" height="470" rx="26"/></clipPath>
 </defs>
@@ -42,7 +42,7 @@
 <g clip-path="url(#screen)">
 <rect x="48" y="96" width="500" height="300" fill="#000"/>
 <g class="spin"><use xlink:href="#wp"/></g>
-<g mask="url(#coreMask)"><use xlink:href="#wp"/></g>
+<g clip-path="url(#coreClip)"><use xlink:href="#wp"/></g>
 <rect x="48" y="96" width="500" height="18" fill="#000" fill-opacity=".55"/>
 <text x="60" y="109" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="700" fill="#fff"></text>
 <text x="60" y="109" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" font-weight="700" fill="#fff">LiveWall</text>
