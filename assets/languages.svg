@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 602" width="1200" height="602" role="img" aria-label="Languages: Java, C#, C, Go, Python, Swift">
 <style>
 @keyframes spin{to{transform:rotate(360deg)}}
+.shine{animation:shine 5s cubic-bezier(.5,0,.3,1) infinite}
+@keyframes shine{0%{transform:skewX(-20deg) translateX(0)}60%,100%{transform:skewX(-20deg) translateX(1700px)}}
+.wave{transform-box:fill-box;transform-origin:center;animation:wave 3s ease-out infinite}
+@keyframes wave{0%{transform:scale(.8);opacity:.9}70%,100%{transform:scale(1.9);opacity:0}}
+.inv{mix-blend-mode:difference;opacity:0;animation:inv 7.2s ease-in-out infinite}
+@keyframes inv{0%{opacity:0}4%,15%{opacity:1}19%,100%{opacity:0}}
 .sweep{animation:sweep 6s linear infinite}
 .float{animation:float 3s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
@@ -15,6 +21,7 @@
 <text x="24" y="52" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="5" fill="#fff">LANGUAGES</text>
 <line x1="152" y1="48" x2="1176" y2="48" stroke="#262626"/>
 <text x="1176" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#555">06 / ∞</text>
+<defs><clipPath id="tilesClip"><rect x="24.0" y="84" width="370.0" height="150" rx="18"/><rect x="415.0" y="84" width="370.0" height="150" rx="18"/><rect x="806.0" y="84" width="370.0" height="150" rx="18"/><rect x="24.0" y="254" width="370.0" height="150" rx="18"/><rect x="415.0" y="254" width="370.0" height="150" rx="18"/><rect x="806.0" y="254" width="370.0" height="150" rx="18"/></clipPath><clipPath id="toolsClip"><rect x="24.0" y="480" width="180.3" height="96" rx="16"/><rect x="218.3" y="480" width="180.3" height="96" rx="16"/><rect x="412.7" y="480" width="180.3" height="96" rx="16"/><rect x="607.0" y="480" width="180.3" height="96" rx="16"/><rect x="801.3" y="480" width="180.3" height="96" rx="16"/><rect x="995.7" y="480" width="180.3" height="96" rx="16"/></clipPath><linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".32"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
 <g class="rise" style="animation-delay:0.10s">
 <rect x="24" y="84" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
 <rect class="sweep" x="24" y="84" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:0.0s"/>
@@ -76,6 +83,7 @@
 <text x="962" y="336" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">iOS · macOS</text>
 <text x="962" y="368" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">guard let x else { return }</text>
 </g>
+<g clip-path="url(#tilesClip)"><rect class="shine" x="-260" y="44" width="160" height="400" fill="url(#beam)" transform="skewX(-20)" style="animation-duration:5s;animation-delay:0s"/></g><circle class="wave" cx="102" cy="159.0" r="40" fill="none" stroke="#fff" stroke-width="1.5" style="animation-delay:0.0s"/><circle class="wave" cx="493" cy="159.0" r="40" fill="none" stroke="#fff" stroke-width="1.5" style="animation-delay:0.5s"/><circle class="wave" cx="884" cy="159.0" r="40" fill="none" stroke="#fff" stroke-width="1.5" style="animation-delay:1.0s"/><circle class="wave" cx="102" cy="329.0" r="40" fill="none" stroke="#fff" stroke-width="1.5" style="animation-delay:1.5s"/><circle class="wave" cx="493" cy="329.0" r="40" fill="none" stroke="#fff" stroke-width="1.5" style="animation-delay:2.0s"/><circle class="wave" cx="884" cy="329.0" r="40" fill="none" stroke="#fff" stroke-width="1.5" style="animation-delay:2.5s"/>
 <text x="24" y="458" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="5" fill="#fff">TOOLS</text>
 <line x1="116" y1="454" x2="1176" y2="454" stroke="#262626"/>
 <g class="rise" style="animation-delay:0.80s">
@@ -115,4 +123,5 @@
 <text x="1053.7" y="524" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">Linux</text>
 <text x="1013.7" y="558" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2" fill="#8a8a8a">SHELL</text>
 </g>
+<rect class="inv" x="24.0" y="480" width="180.3" height="96" rx="16" fill="#fff" style="animation-delay:0.0s"/><rect class="inv" x="218.3" y="480" width="180.3" height="96" rx="16" fill="#fff" style="animation-delay:1.2s"/><rect class="inv" x="412.7" y="480" width="180.3" height="96" rx="16" fill="#fff" style="animation-delay:2.4s"/><rect class="inv" x="607.0" y="480" width="180.3" height="96" rx="16" fill="#fff" style="animation-delay:3.6s"/><rect class="inv" x="801.3" y="480" width="180.3" height="96" rx="16" fill="#fff" style="animation-delay:4.8s"/><rect class="inv" x="995.7" y="480" width="180.3" height="96" rx="16" fill="#fff" style="animation-delay:6.0s"/><g clip-path="url(#toolsClip)"><rect class="shine" x="-260" y="440" width="160" height="176" fill="url(#beam)" transform="skewX(-20)" style="animation-duration:5s;animation-delay:2.5s"/></g>
 </svg>
