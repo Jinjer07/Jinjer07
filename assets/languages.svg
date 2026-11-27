@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 504" width="1200" height="504" role="img" aria-label="Languages: Java, C#, C, Go, Python, Swift">
+<style>
+@keyframes spin{to{transform:rotate(360deg)}}
+.sweep{animation:sweep 6s linear infinite}
+@keyframes sweep{to{stroke-dashoffset:-100}}
+.rise{animation:rise .8s ease-out backwards}
+@keyframes rise{from{opacity:0}to{opacity:1}}
+</style>
+<rect width="1200" height="504" rx="26" fill="#000"/>
+<rect x=".5" y=".5" width="1199" height="503" rx="26" fill="none" stroke="#1e1e1e"/>
+<text x="24" y="52" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="5" fill="#fff">LANGUAGES</text>
+<line x1="152" y1="48" x2="1176" y2="48" stroke="#262626"/>
+<text x="1176" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#555">06 / ∞</text>
+<g class="rise" style="animation-delay:0.10s">
+<rect x="24" y="84" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
+<rect class="sweep" x="24" y="84" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:0.0s"/>
+<circle cx="102" cy="159.0" r="52" fill="none" stroke="#1c1c1c"/>
+<g style="transform-box:view-box;transform-origin:102px 159.0px;animation:spin 7.0s linear infinite"><circle cx="102" cy="107.0" r="3" fill="#fff"/></g>
+<polygon points="102.0,122.0 134.0,140.5 134.0,177.5 102.0,196.0 70.0,177.5 70.0,140.5" fill="none" stroke="#fff" stroke-width="1.6"/>
+<text x="102" y="166.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#fff">Jv</text>
+<text x="180" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">Java</text>
+<text x="180" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">OOP · JVM</text>
+<text x="180" y="198" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">System.out.println(&quot;hi&quot;);</text>
+</g><g class="rise" style="animation-delay:0.22s">
+<rect x="415" y="84" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
+<rect class="sweep" x="415" y="84" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:-0.9s"/>
+<circle cx="493" cy="159.0" r="52" fill="none" stroke="#1c1c1c"/>
+<g style="transform-box:view-box;transform-origin:493px 159.0px;animation:spin 8.7s linear infinite reverse"><circle cx="493" cy="107.0" r="3" fill="#fff"/></g>
+<polygon points="493.0,119.0 533.0,159.0 493.0,199.0 453.0,159.0" fill="none" stroke="#fff" stroke-width="1.6"/>
+<text x="493" y="166.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#fff">C#</text>
+<text x="571" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">C#</text>
+<text x="571" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">.NET</text>
+<text x="571" y="198" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">await Task.Run(Work);</text>
+</g><g class="rise" style="animation-delay:0.34s">
+<rect x="806" y="84" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
+<rect class="sweep" x="806" y="84" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:-1.8s"/>
+<circle cx="884" cy="159.0" r="52" fill="none" stroke="#1c1c1c"/>
+<g style="transform-box:view-box;transform-origin:884px 159.0px;animation:spin 10.4s linear infinite"><circle cx="884" cy="107.0" r="3" fill="#fff"/></g>
+<circle cx="884" cy="159.0" r="34" fill="none" stroke="#fff" stroke-width="1.6"/><circle cx="884" cy="159.0" r="27" fill="none" stroke="#3a3a3a"/>
+<text x="884" y="166.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#fff">C</text>
+<text x="962" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">C</text>
+<text x="962" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">SYSTEMS · MEMORY</text>
+<text x="962" y="198" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">int main(void) { }</text>
+</g><g class="rise" style="animation-delay:0.46s">
+<rect x="24" y="254" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
+<rect class="sweep" x="24" y="254" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:-2.7s"/>
+<circle cx="102" cy="329.0" r="52" fill="none" stroke="#1c1c1c"/>
+<g style="transform-box:view-box;transform-origin:102px 329.0px;animation:spin 12.1s linear infinite reverse"><circle cx="102" cy="277.0" r="3" fill="#fff"/></g>
+<rect x="71" y="298.0" width="62" height="62" rx="12" fill="none" stroke="#fff" stroke-width="1.6"/>
+<text x="102" y="336.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#fff">Go</text>
+<text x="180" y="312" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">Go</text>
+<text x="180" y="336" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">CONCURRENCY</text>
+<text x="180" y="368" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">go func() { ch &lt;- 1 }()</text>
+</g><g class="rise" style="animation-delay:0.58s">
+<rect x="415" y="254" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
+<rect class="sweep" x="415" y="254" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:-3.6s"/>
+<circle cx="493" cy="329.0" r="52" fill="none" stroke="#1c1c1c"/>
+<g style="transform-box:view-box;transform-origin:493px 329.0px;animation:spin 13.8s linear infinite"><circle cx="493" cy="277.0" r="3" fill="#fff"/></g>
+<polygon points="526.3,342.8 506.8,362.3 479.2,362.3 459.7,342.8 459.7,315.2 479.2,295.7 506.8,295.7 526.3,315.2" fill="none" stroke="#fff" stroke-width="1.6"/>
+<text x="493" y="336.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#fff">Py</text>
+<text x="571" y="312" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">Python</text>
+<text x="571" y="336" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">SCRIPTS · DATA</text>
+<text x="571" y="368" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">print(*map(str, xs))</text>
+</g><g class="rise" style="animation-delay:0.70s">
+<rect x="806" y="254" width="370" height="150" rx="18" fill="#070707" stroke="#262626"/>
+<rect class="sweep" x="806" y="254" width="370" height="150" rx="18" fill="none" stroke="#fff" stroke-opacity=".9" pathLength="100" stroke-dasharray="7 93" style="animation-delay:-4.5s"/>
+<circle cx="884" cy="329.0" r="52" fill="none" stroke="#1c1c1c"/>
+<g style="transform-box:view-box;transform-origin:884px 329.0px;animation:spin 15.5s linear infinite reverse"><circle cx="884" cy="277.0" r="3" fill="#fff"/></g>
+<polygon points="884.0,293.0 920.4,356.0 847.6,356.0" fill="none" stroke="#fff" stroke-width="1.6"/>
+<text x="884" y="336.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" font-weight="700" fill="#fff">Sw</text>
+<text x="962" y="312" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">Swift</text>
+<text x="962" y="336" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#6f6f6f">iOS · macOS</text>
+<text x="962" y="368" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#a3a3a3">guard let x else { return }</text>
+</g>
+<text x="24" y="468" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="5" fill="#fff">TOOLS</text>
+<rect x="134" y="446" width="88" height="34" rx="17" fill="none" stroke="#3a3a3a"/><text x="178.0" y="468" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e5e5e5">Docker</text><rect x="234" y="446" width="79" height="34" rx="17" fill="none" stroke="#3a3a3a"/><text x="273.5" y="468" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e5e5e5">Figma</text><rect x="325" y="446" width="124" height="34" rx="17" fill="none" stroke="#3a3a3a"/><text x="387.0" y="468" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e5e5e5">PostgreSQL</text><rect x="461" y="446" width="97" height="34" rx="17" fill="none" stroke="#3a3a3a"/><text x="509.5" y="468" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e5e5e5">MongoDB</text><rect x="570" y="446" width="61" height="34" rx="17" fill="none" stroke="#3a3a3a"/><text x="600.5" y="468" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e5e5e5">Git</text><rect x="643" y="446" width="79" height="34" rx="17" fill="none" stroke="#3a3a3a"/><text x="682.5" y="468" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#e5e5e5">Linux</text>
+</svg>
